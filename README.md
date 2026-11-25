@@ -1,75 +1,55 @@
-<div align="center">
-  <img src="./assets/banner.svg" alt="Claudiu Marius Ciupitu — Software Engineering Portfolio" width="100%"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Bucharest-Romania-334155?style=flat-square" alt="Bucharest, Romania"/>
-  <img src="https://img.shields.io/badge/Open%20to-Junior%20%26%20Internship%20Roles-0369a1?style=flat-square" alt="Open to junior and internship roles"/>
-</div>
+<img src="./assets/banner.svg" width="100%" alt="Claudiu Marius Ciupitu — Software engineering, Bucharest, Romania"/>
 
-## About me
+I'm a computer engineering graduate from the Faculty of Automatic Control and Computers in Bucharest, currently pursuing a master's degree.
 
-Computer engineering graduate from the Faculty of Automatic Control and Computers, currently pursuing a Master's degree. I enjoy building database-driven applications, implementing business logic and understanding how software works beneath the surface.
+The part of programming I find most interesting is what happens behind the interface: how a booking is validated, how data moves between threads, and how a database represents a real-world problem.
 
-My interests span backend engineering, full-stack development, data engineering and applied machine learning.
+My main focus is backend and full-stack engineering. I also have an academic background in computer vision and machine learning.
 
-## Selected engineering projects
+**Open to junior software engineering roles and internships.** · [Explore my repositories](https://github.com/Claudio1009?tab=repositories)
 
-| Project | Engineering highlights |
+## Start here
+
+### [BookYourSeat](https://github.com/Claudio1009/BookYourSeat) — making hybrid offices easier to use
+
+A team-built platform for reserving desks and meeting rooms. The interesting part is not the reservation form itself, but the rules behind availability, overlapping bookings, recurring reservations and notifications.
+
+| Backend | Frontend | Persistence |
+| :--- | :--- | :--- |
+| Java, Spring Boot, Spring Security | React, TypeScript | PostgreSQL, JPA |
+
+The repository includes **11 REST controller classes, 15 JPA entities and 65 test methods**. These figures describe the codebase, not my individual contribution or verified test passes.
+
+[Backend source](https://github.com/Claudio1009/BookYourSeat/tree/main/backend) · [Frontend source](https://github.com/Claudio1009/BookYourSeat/tree/main/frontend) · [Documentation](https://github.com/Claudio1009/BookYourSeat#readme)
+
+### Other projects worth exploring
+
+| Project | The engineering problem | Stack |
+| :--- | :--- | :--- |
+| [Prediction Market](https://github.com/Claudio1009/prediction-market-app) | Modeling market outcomes, settlement and live updates with server-sent events | TypeScript, Bun, Elysia, SQLite, Docker |
+| [NormalizeColors](https://github.com/Claudio1009/NormalizeColors) | Passing image data between three worker threads and implementing RGB histogram equalization | Java, concurrency, binary streams |
+| [MERN Movie App](https://github.com/Claudio1009/MERN-Movie-app) | Organizing movie data, API operations and access control across a full-stack application | React, Redux, Express, MongoDB |
+| [Football World Cup 2022](https://github.com/Claudio1009/Football-World-Cup-2022-App) | Deriving group standings and player statistics from 832 player records and 64 matches | PHP, MySQL, SQL |
+| [TripSync](https://github.com/Claudio1009/acstripsync) | Combining shared itinerary planning with AI-assisted suggestions and relational persistence | React, TypeScript, Supabase, Gemini |
+
+## Beyond web development
+
+For my bachelor's thesis, I explored negative emotion classification in facial images using five neural networks. I compared majority voting with performance-weighted voting to investigate when combining models can improve classification.
+
+That project introduced me to a different kind of engineering problem: evaluating a model rather than simply checking whether an application runs.
+
+## Tools I work with
+
+| Area | Technologies |
 | :--- | :--- |
-| **[BookYourSeat](https://github.com/Claudio1009/BookYourSeat)** | Hybrid-office booking platform (team project). Spring Boot, React, PostgreSQL, JWT, recurring reservations and 65 test methods. |
-| **[Prediction Market](https://github.com/Claudio1009/prediction-market-app)** | Full-stack market simulation with 13 API endpoints, 5 SQLite tables, SSE and Docker. |
-| **[MERN Movie App](https://github.com/Claudio1009/MERN-Movie-app)** | Movie application with 22 API endpoints, MongoDB, React and Redux. |
-| **[NormalizeColors](https://github.com/Claudio1009/NormalizeColors)** | Java image processing with three worker threads, blocking queues, piped streams and RGB histogram equalization. |
-| **[TripSync](https://github.com/Claudio1009/acstripsync)** | Collaborative travel planning with Supabase, PostgreSQL and AI integration. |
-| **[Football World Cup 2022](https://github.com/Claudio1009/Football-World-Cup-2022-App)** | SQL analytics over 832 player records, 64 matches and seven relational tables. |
+| Languages | Java, C++, Python, TypeScript, JavaScript, SQL |
+| Application development | Spring Boot, Spring Security, React, Node.js, Express |
+| Data | PostgreSQL, MySQL, MongoDB, SQLite |
+| Engineering tools | Git, Docker, Maven, JUnit |
+| Machine learning | TensorFlow, PyTorch, OpenCV |
 
-<sub>Figures describe repository contents and implemented components, not benchmark results or verified test passes.</sub>
-
-## Technical toolkit
-
-**Languages**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-334155?style=flat-square)
-
-**Backend & frontend**
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0891B2?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Data & tooling**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-22863a?style=flat-square&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-
-## Research & learning
-
-- Bachelor's thesis: negative emotion classification in facial images using an ensemble of five neural networks, comparing majority and weighted voting.
-- Continuing to study algorithms, data structures, concurrency, system design and software testing.
-- Exploring applied machine learning, reliable API design and relational data modeling.
-
-## GitHub activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Claudio1009&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" alt="GitHub activity statistics" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Claudio1009&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" alt="Languages across public repositories" width="45%"/>
-</div>
+I'm currently developing my skills in algorithms, system design, concurrency and automated testing, with an emphasis on understanding the trade-offs behind implementation choices.
 
 ---
 
-<div align="center">
-  <strong>Interested in building useful, reliable software with a collaborative team.</strong>
-  <br/>
-  <a href="https://github.com/Claudio1009?tab=repositories">Explore my repositories</a>
-</div>
+<sub>Bucharest, Romania · [GitHub repositories](https://github.com/Claudio1009?tab=repositories)</sub>
