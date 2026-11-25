@@ -38,15 +38,17 @@ For my bachelor's thesis, I explored negative emotion classification in facial i
 
 That project introduced me to a different kind of engineering problem: evaluating a model rather than simply checking whether an application runs.
 
-## Tools I work with
+## Technical toolkit
 
-| Area | Technologies |
-| :--- | :--- |
-| Languages | Java, C++, Python, TypeScript, JavaScript, SQL |
-| Application development | Spring Boot, Spring Security, React, Node.js, Express |
-| Data | PostgreSQL, MySQL, MongoDB, SQLite |
-| Engineering tools | Git, Docker, Maven, JUnit |
-| Machine learning | TensorFlow, PyTorch, OpenCV |
+<table>
+<tr><td><strong>Languages</strong></td><td><img src="https://skillicons.dev/icons?i=java,cpp,py,ts,js,php&amp;theme=dark" alt="Java, C++, Python, TypeScript, JavaScript, PHP" /></td></tr>
+<tr><td><strong>Backend &amp; frontend</strong></td><td><img src="https://skillicons.dev/icons?i=spring,react,nodejs,express,tailwind,redux&amp;theme=dark" alt="Spring, React, Node.js, Express, Tailwind CSS, Redux" /></td></tr>
+<tr><td><strong>Databases</strong></td><td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,supabase&amp;theme=dark" alt="PostgreSQL, MySQL, MongoDB, SQLite, Supabase" /></td></tr>
+<tr><td><strong>Engineering tools</strong></td><td><img src="https://skillicons.dev/icons?i=git,github,docker,maven&amp;theme=dark" alt="Git, GitHub, Docker, Maven" /></td></tr>
+<tr><td><strong>Machine learning</strong></td><td><img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&amp;theme=dark" alt="TensorFlow, PyTorch, OpenCV" /></td></tr>
+</table>
+
+**Also working with:** SQL, REST APIs, JPA / Hibernate, JUnit, JWT and Java concurrency.
 
 I'm currently developing my skills in algorithms, system design, concurrency and automated testing, with an emphasis on understanding the trade-offs behind implementation choices.
 
